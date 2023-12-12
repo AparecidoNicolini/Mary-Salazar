@@ -259,3 +259,120 @@ ol .sub{
 .procedimentos img {
     height: 400px;
 }
+
+.rodape {
+    width: 100vw;
+    height: 900px;
+    background-image: url(../img/RODAPE_1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.rodape {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: var(--font-size-40pt);
+    color: #fff;
+}
+
+.favicon {
+    width: 100vw;
+}
+
+.favicon img {
+    width: 100px;
+    margin-bottom: 100px;
+}
+
+.rodape p {
+    font-family: var(--font-semibold);
+}
+
+.visto {
+    width: 60vw;
+    text-align: end;
+    
+}
+
+.visto img{
+    width: 300px;
+    margin-top: 30px;
+}
+
+.rodape_maps iframe{
+    width: 100vw;
+    height: 400px;
+}
+
+footer {
+    width: 100vw;
+    background-color: #cdb2b0;
+}
+
+.footer_menu {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer_links {
+    flex: 1;
+}
+
+footer ol li a {
+    font-size: var(--font-bold);
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer_contact{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid white;
+}
+
+.footer_contact .footer_contact_social {
+    display: flex;
+    margin-left: 80px;
+}
+
+.footer_contact_social img {
+    width: 40px;
+    margin-left: 20px;
+}
+
+.footer_contact span {
+    margin-left: 100px;
+    margin-top: 30px;
+    color: #fff;
+    font-size: var(--font-size-15pt);
+}
+
+.footer_contact {
+    width: 40px;
+    margin-bottom: 30px;
+    margin-left: 20PX;
+}
+
+.footer_contact .footer_tel {
+    font-size: var(--font-size-24pt);
+    background-color: #a57c79;
+    width: 300px;  
+    text-align: center;  
+    border-radius: 50px;
+}
+
+footer p {
+    width: 100vw;
+    background-color: #fff;
+    text-align: center;
+    display: block;
+    height: 50px;
+    padding-top: 10px;
+    font-family: var(--font-Bold);
+}
