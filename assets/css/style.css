@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'OpenSans-regular';
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-semiBold';
+    src: url('../fonts/OpenSans-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --font-regular: 'OpenSans-Regular', sans-serif;
+    --font-semiBold: 'OpenSans-SemiBold', sans-serif;
+    --font-bold: 'OpenSans-Bold', sans-serif;
+    --font-size-15pt: 20px;
+    --font-size-20pt: 26px;
+    --font-size-22pt: 29px;
+    --font-size-24pt: 32px;
+    --font-size-40pt: 53px;
+    --text-gray: #808181;
+    --text-pink: #BC8C8A;
+    --font-title: 53px;
+    --background-img: #F5EFEF;
+    --background-exams: #E7E6E6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-regular);
+    overflow-x: hidden;
+}
+
+body {
+    color: var(--text-gray);
+    line-height: 1.5;
+    text-align: justify;
+}
+
+header {
+    background-image: url(../img/banner_home.png);
+    background-size: cover;
+    background-position: center;
+    height: 140vh;
+    width: 100vw;
+    font-size: var(--font-size-20pt);
+    font-family: var(--font-bold);
+    
+}
+
+.negrito {
+    font-family: var(--font-semiBold);
+    /* font-size: var(--font-size-22pt); */
+}
+
+.container {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+.container_nav {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.nav {
+    width: 80vw;
+    overflow: hidden;
+    margin-top: var(--font-size-22pt);
+    height: 100px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.img_logo {
+    width: 22vw;
+}
+.logotipo {
+    width:100%;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    font-size: var(--font-size-15pt);
+    font-family: 'OpenSans-Semibold';
+}
+
+nav li {
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+
+nav li a { 
+    color: #fff;
+    text-decoration: none;
+}
+
+nav img {
+    width: var(--font-size-24pt);
+    margin: 0 10px;
+}
+
+.content_header {
+    position: absolute;
+    top: 60%;
+    color:#fff;
+}
+
+.content_header h3 {
+    font-family: var(--font-regular);
+    font-size: var(--font-size-20pt);
+    text-transform: uppercase;
+}
+
+.content_header h2 {
+    font-family: var(--font-semiBold);
+    font-size: var(--font-size-40pt);
+}
+
+.flex {
+    display: flex;
+    margin: 40px 0;
+    justify-content: space-between;
+}
+
+.sub {
+    font-family: var(--font-regular);
+    font-size: var(--font-size-15pt);
+}
+
+.container h2 {
+    font-family: var(--font-semiBold);
+    font-size: var(--font-size-40pt);
+}
+
+.conteudo {
+    flex: 3;
+    padding: 20px 0;
+}
+
+.conteudo p {
+    font-size: var(--font-size-22pt);
+    padding: 0 40px 0 0;
+}
+
+.conteudo a img {
+    width: 50%;
+    margin-top: 50px;
+}
+
+.photo {
+    flex: 2;
+}
+
+.photo img{
+    max-width: 100%;
+    margin-top: 100px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px;
+}
+
+.item {
+    margin: 10px;
+    text-align: center;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.item img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 10px;
+}
+
+.exames {
+    background-color: var(--background-exams);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 10px; 
+}
+
+.item, .item-text {
+    padding: 10px;
+    text-align: center;
+}
+
+.item img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.conteudo_exames {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    margin-top: 80px;
+    padding-bottom: 40px;
+}
+
+.conteudo_exames img{ 
+    height: 400px;
+}
+
+.text_exames {
+    margin: 0 80px 0 20px;
+}
+
+.text_exames p{
+    margin-top: 40px;
+}
+
+ol .sub{
+    list-style-type: square;
+    margin: 20px 0;
+}
+
+.procedimentos {
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    gap: 10px;
+}
+
+.procedimentos:nth-child(odd) {
+    grid-template-columns: 1fr 2fr;
+}
+
+.procedimentos img {
+    height: 400px;
+}
