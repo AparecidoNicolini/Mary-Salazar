@@ -57,7 +57,16 @@ header {
     width: 100vw;
     font-size: var(--font-size-20pt);
     font-family: var(--font-bold);
-    
+}
+
+.especialidades {
+    background-image: url(../img/banner-01.png);
+    background-size: cover;
+    background-position: center;
+    height: 140vh;
+    width: 100vw;
+    font-size: var(--font-size-20pt);
+    font-family: var(--font-bold);
 }
 
 .negrito {
@@ -305,6 +314,36 @@ ol .sub{
 .rodape_maps iframe{
     width: 100vw;
     height: 400px;
+}
+
+.espec .title {
+    color: var(--text-pink);
+    font-size: var(--font-size-22pt);
+    margin:  40px 0; 
+}
+
+.details_espec {
+    display: flex;
+
+}
+
+.details_espec .details {
+    flex: 2;
+    font-size: var(--font-size-15pt);    
+}
+
+.details_espec p {
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+.details_espec .photo {
+    flex: 1;
+    margin-left: 50px;
+}
+
+.photo img {
+    margin-top: -30px;
 }
 
 footer {
