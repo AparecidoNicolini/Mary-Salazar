@@ -416,3 +416,15 @@ footer p {
     padding-top: 10px;
     font-family: var(--font-Bold);
 }
+
+.anima {
+    opacity: 0;
+    transform: translate(-100px, 0px, 0px);
+    transition: 3s all ease;
+}
+
+.anima-init {
+    opacity: 1;
+    transform: translate(0px, 0px, 0px);
+    transition: .3s all ease;
+}
