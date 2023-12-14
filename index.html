@@ -12,23 +12,30 @@
 <body>
     <header>
         <div class="container_nav">
-            <div class="nav anima">
-                <div class="img_logo"><a href="index.html>"><img src="assets/img/logotipo.png" class="logotipo"></a></div>
-                <nav>
+            <div class="nav">
+                <div class="img_logo">
+                    <a href="index.html">
+                        <img src="assets/img/logotipo.png" class="logotipo" alt="Logotipo">
+                    </a>
+                </div>
+                <nav id="nav">
                     <ul>
                         <li><a href="#">Sobre</a></li>
                         <li><a href="especialidades.html">Especialidades</a></li>
                         <li><a href="#">Exames</a></li>
                         <li><a href="#">Procedimentos</a></li>
                     </ul>
-                    <img src="assets/img/whatsapp.svg">
-                    <img src="assets/img/instagrm.svg">
-                    <img src="assets/img/email.svg">
+                    <div class="social-icons">
+                        <img src="assets/img/whatsapp.svg" alt="WhatsApp">
+                        <img src="assets/img/instagrm.svg" alt="Instagram">
+                        <img src="assets/img/email.svg" alt="Email">
+                    </div>
                 </nav>
+                <img id="menuIcon" class="menu" src="assets/img/bars-solid.svg" onclick="toggleMenu()" alt="Ícone de Menu">
             </div>
         </div>
         <div class="container">
-            <div class="content_header anima">
+            <div class="content_header">
                 <h3>
                     Dermatologista e tricologista
                 </h3>
@@ -179,8 +186,8 @@
                     </div>
                 </div>
                 <div class="procedimentos anima">
-                    <div class="text_exames anima">
-                        <span class="sub anima">PROCEDIMENTOS</span>
+                    <div class="text_exames anima order">
+                        <span class="sub anima order">PROCEDIMENTOS</span>
                         <h2>Fotoage®</h2>
                         <p class="sub anima">
                             Terapia fotodinâmica para auxiliar nos
@@ -212,7 +219,7 @@
                     </div>
                 </div>
                 <div class="procedimentos anima">
-                    <div class="text_exames anima">
+                    <div class="text_exames anima order">
                         <span class="sub anima">PROCEDIMENTOS</span>
                         <h2>Botox ®</h2>
                         <p class="sub anima">
@@ -232,7 +239,7 @@
                     <div>
                         <img src="assets/img/IPCA.png">
                     </div>
-                    <div class="text_exames anima">
+                    <div class="text_exames anima order">
                         <span class="sub anima">PROCEDIMENTOS</span>
                         <h2>IPCA</h2>
                         <span class="sub anima">INDUÇÃO PERCUTÂNEA POR AGULHAS</span>
@@ -248,7 +255,7 @@
                     </div>
                 </div>
                 <div class="procedimentos anima">
-                    <div class="text_exames anima">
+                    <div class="text_exames anima order">
                         <span class="sub anima">PROCEDIMENTOS</span>
                         <h2>MMP ®</h2>
                         <span class="sub anima">MICROINFUSÃO DE MEDICAMENTOS NA PELE</span>
@@ -313,11 +320,11 @@
             <div class="footer_menu anima">
                 <div class="footer_links anima">
                     <ol>
-                        <li><a href="#">• SOBRE</a></li>
-                        <li><a href="#">• ESPECIALIDADES</a></li>
-                        <li><a href="#">• EXAMES</a></li>
-                        <li><a href="#">• PROCEDIMENTOS</a></li>
-                        <li><a href="#">• CONTATO</a></li>
+                        <li><a href="#"><span>•</span> SOBRE</a></li>
+                        <li><a href="#"><span>•</span> ESPECIALIDADES</a></li>
+                        <li><a href="#"><span>•</span> EXAMES</a></li>
+                        <li><a href="#"><span>•</span> PROCEDIMENTOS</a></li>
+                        <li><a href="#"><span>•</span> CONTATO</a></li>
                     </ol>
                 </div>
                 <div class="footer_contact anima">
@@ -326,7 +333,7 @@
                     <img src="assets/img/instagrm.svg">
                     <img src="assets/img/email.svg">
                     </div>
-                    <span>@dra.mary.salazar</span>
+                    <span class="insta">@dra.mary.salazar</span>
                     <span class="footer_tel anima">11.93716 6960</span>
                 </div>
             </div>

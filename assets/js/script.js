@@ -28,3 +28,16 @@ $(document).ready(function() {
 		setTimeout(function() {animeScroll()}, 150);
 	});
 });
+
+function toggleMenu() {
+	var menu = document.getElementById('nav');
+	var menuIcon = document.getElementById('menuIcon');
+
+	if (menu.style.display === 'block') {
+		menu.style.display = 'none';
+		menuIcon.src = 'assets/img/bars-solid.svg';
+	} else {
+		menu.style.display = 'block';
+		menuIcon.src = 'assets/img/x-solid.svg';
+	}
+}
