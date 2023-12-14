@@ -132,7 +132,6 @@ nav li a{
   text-decoration: none;
   padding: 15px;
   line-height: 20px;
-  
 }
 
 .nav li a:hover{
@@ -303,7 +302,6 @@ ol .sub {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 10px;
-
 }
 
 .procedimentos:nth-child(odd) {
