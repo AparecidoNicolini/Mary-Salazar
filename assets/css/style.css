@@ -538,6 +538,10 @@ footer p {
         height: 100%;
         margin: 0;
       }
+
+      header {
+        height: 100vh;
+      }
     
     .nav {
         display: flex;
@@ -546,6 +550,17 @@ footer p {
         width: 100vw;
         /* height: 100vh; */
     }
+
+    .img_logo {
+      width: 100%;
+      text-align: left;
+      padding: 20px;
+    }
+
+    .logotipo {
+      width: 330px;
+
+  }
     
     #nav {
         position: fixed;
@@ -569,13 +584,18 @@ footer p {
     }
     
     #nav ul li {
-        font-size: 30px;
-        padding: 10px;
+        font-size: 60px;
+        margin: 20px 0;
+        padding: 30px;
     }
     
     .nav img {
         flex-direction: row;
         margin: 40px 20px;
+    }
+
+    .social-icons img{
+      width: 80px;
     }
     
     #menuIcon {
@@ -584,21 +604,25 @@ footer p {
         top: 0;
     }
     
-    .img_logo {
-        width: 300px;
-    }
-    
     .menu {
         display: block;
         z-index: 3;
         text-align: right;
-        width: 25px;
+        width: 40px;
         position: absolute;
         right: 10%;
         cursor: pointer;
     }
+
+    .content_header {
+      margin-top: 60vh;
+    }
       .container h2 {
-        font-size: var(--font-size-24pt);
+        font-size: 45px;
+      }
+
+      .container h3 {
+        font-size: 35px;
       }
 
       .flex {
@@ -614,10 +638,27 @@ footer p {
         margin: 20px auto;
       }
 
+      .conteudo span {
+        font-size: 30px;
+      }
+
+      .conteudo h2 {
+        font-size: 40px;
+      }
+
+      .conteudo p, .conteudo span{
+        font-size: 35px;
+      }
+
+      .conteudo a img {
+        width: 400px;
+      }
+
       .services {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 10px;
+        font-size: 25px;
       }
 
       .item {
@@ -641,8 +682,12 @@ footer p {
         margin-top: 20px;
       }
       
-      .text_exames p {
-        font-size: var(--font-size-20pt);
+      .text_exames p,
+      .text_exames span,
+      ol .sub
+      {
+        font-size: 28px;
+        text-align: left;
       }
       
       .procedimentos {
@@ -669,10 +714,15 @@ footer p {
         flex-direction: column;
         margin-top: 20px;
         text-align: center;
+        height: 500px;
       }
 
       .footer_links span{
         display: none;
+      }
+
+      footer ol li a{
+        font-size: 30px;
       }
 
       .footer_contact {
@@ -680,6 +730,7 @@ footer p {
         border-top: 2px solid #fff;
         width: 60vw;
         align-items: center;
+        font-size: 30px;
       }
 
       .footer_contact_social {
@@ -706,10 +757,11 @@ footer p {
       }
 
       .footer_contact .footer_tel {
-        font-size: var(--font-size-22pt);
-        width: 200px;
+        font-size: 30px;
+        width: 400px;
         margin-top: 20px;
-        height: 40px;
+        height: 50px;
+        border-radius: 25px;
       }
 
       footer p {
@@ -720,10 +772,7 @@ footer p {
       .details_espec {
         display: flex;
         flex-direction: column;
-      }
-
-      .espec .title {
-        font-size: var(--font-size-24pt);
+        font-size: 35px;
       }
 
       .details_espec p {
@@ -741,6 +790,23 @@ footer p {
         transform: translate(0px, 0px, 0px);
         transition: .5s all ease;
     }
+
+    .especialidades {
+      height: 100vh;
+    }
+
+    .espec, 
+    .espec span,
+    .details_espec p{
+      font-size: 35px;
+    }
+
+    .espec .title{
+      font-size: 45px;
+
+    }
+
+    
 }
 
     @media only screen and (min-width: 300px) and (max-width: 599px){
@@ -756,6 +822,10 @@ footer p {
         html, body {
             height: 100%;
             margin: 0;
+          }
+
+          header {
+            height: 100vh;
           }
         
         .nav {
@@ -785,6 +855,7 @@ footer p {
             flex-direction: column;
             width: 100vw;
             margin-top: 25px;
+    
         }
         
         #nav ul li {
