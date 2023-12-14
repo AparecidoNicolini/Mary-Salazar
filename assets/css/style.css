@@ -219,15 +219,15 @@ nav img {
 }
 
 .item:hover {
-  background-color: #e6cdd1;
+  background-color: rgba(230,205,209,0.8);
   border-radius: 10px;
-  color: #fff;
+  color: var(--text-gray);
 }
 
 .conteudo_exames:hover {
-  background-color: #e6cdd1;
+  background-color: rgba(230,205,209,0.8);
   border-radius: 10px;
-  color: #fff;
+  color: var(--text-gray);
   padding: 30px;
 }
 
@@ -242,9 +242,9 @@ nav img {
 }
 
 .procedimentos:hover {
-  background-color: #e6cdd1;
+  background-color: rgba(230,205,209,0.8);
   border-radius: 10px;
-  color: #fff;
+  color: var(--text-gray);
   padding: 20px;
 }
 
